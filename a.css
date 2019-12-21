@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+}
+.a{
+	height: 100vh; 
+	width: 100vw;
+	background-image: url("https://images.wallpaperscraft.com/image/hexagons_shape_rendering_120754_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1{
+	text-align: center;
+	margin: 0;
+}
+.b{
+   height:50px;
+   width:150px;
+   margin: auto;
+}
+.d{
+   height:50px;
+   width:150px;
+   background-color: red;
+   border-radius:25px;
+   transition:  5s;
+}
+.d:hover{
+	border: 2.5px solid black;
+	transition: 0s;
+	background-color: orange;
+}
